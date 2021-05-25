@@ -6,6 +6,9 @@ module.exports = {
     public: '/',
     src: '/dist'
   },
+  buildOptions: {
+    out: 'docs'
+  },
   plugins: [
     '@snowpack/plugin-postcss',
     '@snowpack/plugin-react-refresh'
